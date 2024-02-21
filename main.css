@@ -75,6 +75,8 @@ nav ul {
     border: none;
     background: #fafafa;
     font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .form-group i {
