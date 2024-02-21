@@ -42,6 +42,7 @@ nav ul {
 .link {
     text-decoration: none;
     color: black;
+    font-weight: bolder;
 }
 
 .active {
