@@ -1,6 +1,6 @@
-const menuBtn = document.getElementById('menu');
 const navBar = document.querySelector('nav');
 const hiddenMenu = document.querySelector('.hidden-menu');
+
 
 window.onscroll = () => {
     if (window.scrollY > 0) {
@@ -11,6 +11,10 @@ window.onscroll = () => {
     }
 };
 
-menuBtn.addEventListener('click', () => {
-    hiddenMenu.classList.toggle('show'); 
-})
+function showMenu() {
+    if (hiddenMenu.style.display === "block") {
+        hiddenMenu.style.display = "none";
+    } else {
+        hiddenMenu.style.display = "block";
+    }
+}
